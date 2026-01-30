@@ -1,0 +1,42 @@
+services:
+  backend:
+    build: ./backend
+    container_name: ai_guardian_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=mysql+pymysql://user:password@db/ai_guardian
+      - SECRET_KEY=supersecretkey
+    depends_on:
+      - db
+    volumes:
+      - ./backend/models:/app/models
+      - ./backend/uploads:/app/uploads
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - VITE_API_URL=http://localhost:8000
+    container_name: ai_guardian_frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+  db:
+    image: mysql:8.0
+    container_name: ai_guardian_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: ai_guardian
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./tables.sql:/docker-entrypoint-initdb.d/tables.sql
+
+volumes:
+  db_data:

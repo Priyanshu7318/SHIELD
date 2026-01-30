@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-jose[cryptography]
+python-multipart
+python-dotenv
+passlib[bcrypt]
+email-validator
+bcrypt==4.0.1
+pytest
+httpx
+tensorflow
+opencv-python
+librosa
+scikit-learn
