@@ -20,7 +20,7 @@ The system features a **FastAPI** backend for high-performance inference, a **My
 |-----------|--------------|
 | **Backend** | Python 3.9+, FastAPI, SQLAlchemy, Pydantic, Uvicorn |
 | **Frontend** | React (Vite), Tailwind CSS, Axios, Lucide React |
-| **Database** | MySQL (Production), SQLite (Dev/Fallback) |
+| **Database** | MongoDB|
 | **ML & AI** | TensorFlow/Keras, OpenCV, Librosa, Scikit-learn |
 | **Auth** | JWT (JSON Web Tokens), BCrypt Hashing |
 
