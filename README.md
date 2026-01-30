@@ -1,9 +1,9 @@
-# 🛡️ AI Guardian - Smart Deepfake & Cyber Fraud Detection System
+# 🛡️ SHIELD - Smart Deepfake & Cyber Fraud Detection System
 
 > **Advanced AI-powered protection against deepfakes, voice clones, and AI-generated fraud.**
 
 ## 📖 Project Overview
-**AI Guardian** is a cutting-edge full-stack application designed to detect synthetic media and combat cyber fraud. By leveraging state-of-the-art Machine Learning models (CNNs, Spectral Analysis, NLP), it provides real-time analysis of videos, audio, and text to identify AI-generated content.
+** SHIELD** is a cutting-edge full-stack application designed to detect synthetic media and combat cyber fraud. By leveraging state-of-the-art Machine Learning models (CNNs, Spectral Analysis, NLP), it provides real-time analysis of videos, audio, and text to identify AI-generated content.
 
 The system features a **FastAPI** backend for high-performance inference, a **MySQL/SQLite** database for secure record-keeping, and a **React + Tailwind** frontend with a modern "Cyberpunk" aesthetic.
 
