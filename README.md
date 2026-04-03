@@ -122,15 +122,8 @@ Once the backend is running, access the interactive API docs:
     *   **Video**: Upload `.mp4` files to check for deepfakes.
     *   **Audio**: Upload `.mp3`/`.wav` to detect voice cloning.
     *   **Text**: Paste text to identify AI-generated content.
+    *   **Image**: Paste image to identify AI-generated image.
 4.  **Feedback**: Submit feedback on results to help us improve.
 
-## 👥 Meet the Team
 
-| Role | Name | Contribution |
-|------|------|--------------|
-| **Model Training and Development** | **Priyanshu Shakya** | Training and development of models for deepfake detection and analysis. |
-| **Backend** | **Gaurav** | Manage the page loading and data processing. |
-| **Frontend** | **Rishika Pandey** | Creating the amazing user interface. |
-| **Database** | **Soumya Yavav** | Creating the database and managing the dataflow. |
-
-*Developed by Team AI Guardian.*
+*Developed by Team SHIELD.*
