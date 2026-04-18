@@ -122,7 +122,7 @@ Once the backend is running, access the interactive API docs:
     *   **Video**: Upload `.mp4` files to check for deepfakes.
     *   **Audio**: Upload `.mp3`/`.wav` to detect voice cloning.
     *   **Text**: Paste text to identify AI-generated content.
-    *   **Image**: Paste image to identify AI-generated image.
+    *   **Image**: Paste an image to identify an AI-generated image.
 4.  **Feedback**: Submit feedback on results to help us improve.
 
 
