@@ -42,7 +42,7 @@ AI GUARDIAN/
 │   ├── src/
 │   │   ├── components/ # Reusable UI (Navbar, Footer, Loader)
 │   │   ├── context/    # Global State (AuthContext)
-│   │   ├── pages/      # Views (Dashboard, Video/Voice/Text Check)
+│   │   ├── pages/      # Views (Dashboard, Video/Voice/Text/Images Check)
 │   │   ├── services/   # Centralized API client (api.js)
 │   │   └── App.jsx     # Main Routing
 │   ├── tailwind.config.js
